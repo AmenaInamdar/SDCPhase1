@@ -1,0 +1,14 @@
+<configuration>
+    <input>
+        <net-file value="map.net.xml"/>
+        <!-- You’ll add route file here in Step 2 -->
+        <route-files value="route.rou.xml"/>
+        <!-- Optional: detector/pedestrian logic -->
+        <additional-files value="map.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+</configuration>

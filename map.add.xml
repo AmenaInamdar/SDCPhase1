@@ -1,0 +1,9 @@
+<additional>
+    <!-- Induction loop detector -->
+    <inductionLoop id="loop1" lane="e2_0" pos="50" freq="60" file="detector_output.xml"/>
+
+    <!-- Pedestrian logic -->
+    <person id="p1" depart="5">
+        <walk from="e4" to="e2"/>
+    </person>
+</additional>
